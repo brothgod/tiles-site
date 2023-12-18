@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("inconsolata-v31-latin-regular.woff2") format("woff2"),
+    url("inconsolata-v31-latin-regular.woff") format("woff");
+}
+
+body {
+  font-size: 16px;
+  font-family: Georgia, serif;
+  font: 15px Inconsolata;
+  margin: 20px;
+  margin-left: 6em;
+  margin-right: 6em;
+  background-color: #fff;
+  color: #000;
+  line-height: 1.4;
+}
+
+p {
+  font-size: 11px;
+}
+
+#parent {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
